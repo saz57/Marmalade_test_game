@@ -1,0 +1,18 @@
+#!/usr/bin/env mkb
+
+# files specifies all files to build
+files
+{
+    (src)
+    main.cpp
+# Add new source files here
+}
+includepaths
+{
+    h
+}
+
+subprojects
+{
+    iw2d
+}
